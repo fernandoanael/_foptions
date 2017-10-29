@@ -125,7 +125,7 @@ class _foptions
 
 	/**
 	 * Removes the option with the given name
-	 * @param  [type]  $option   Wp option name
+	 * @param  String  $option   Wp option name
 	 * @param  boolean $prefixed Tells if it's a prefixed option or not
 	 */
 	public static function delete($option, $prefixed = true){
